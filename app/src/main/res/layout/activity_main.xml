@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:paddingTop="80dp"
+    tools:context=".MainActivity">
+
+    <com.example.gobang.chessview.MyView
+        android:id="@+id/custom_chess_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.gobang.chessview.MyView>
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_bg_selector"
+        android:text="再来一局"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
